@@ -48,3 +48,33 @@ li a:after{
 li a:hover:after{
     width: 100%;
 }
+
+.navigation-bar{
+    background-color: #030000;
+    position: relative;
+    padding: 0 24px;
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-container{
+    width: 100%;
+    max-width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-container .logo{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-items{
+    display: flex;
+    gap: 2rem;
+}
