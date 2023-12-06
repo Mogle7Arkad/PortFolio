@@ -17,3 +17,34 @@ body{
 .main-wrapper{
     border: 2px solid white;
 }
+
+li{
+    list-style: none;
+}
+
+a{
+    position: relative;
+    text-decoration: none;
+    letter-spacing: 1.0px;
+    color: white;
+    padding: 0 5px;
+}
+
+li a{
+    font-size: 18px;
+}
+
+li a:after{
+    content: '';
+    position: absolute;
+    background-color: white;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+
+li a:hover:after{
+    width: 100%;
+}
