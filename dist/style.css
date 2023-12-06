@@ -103,3 +103,30 @@ li a:hover:after{
     transition: all 0.3s ease-in-out;
     background-color: white
 }
+
+.dropdown-menu{
+    position: absolute;
+    margin-top: 2.4rem;
+    right: 0px;
+    top: 60px;
+    width: 300px;
+    height: 0;
+    background: #030000;
+    backdrop-filter: blur(15px);
+    overflow: hidden;
+    display: none;
+    transition: height 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.dropdown-menu.open{
+    height: 200px;
+    border: 2px solid;
+    border-top: 0px;
+}
+
+.dropdown-menu li{
+    padding: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
