@@ -78,3 +78,28 @@ li a:hover:after{
     display: flex;
     gap: 2rem;
 }
+
+.navbar-container .hamburger{
+    display: none;
+    cursor: pointer;
+    transition: 0.7s ease;
+    padding: 10px 10px;
+    border-radius: 50%;
+    border: 1px solid;
+    border-right: 3px solid;
+    border-bottom: 3px solid;
+}
+
+.hamburger:hover{
+    border: 1px solid;
+}
+
+.bar {
+    display: block;
+    width: 20px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white
+}
